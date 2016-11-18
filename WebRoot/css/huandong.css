@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+
+#pisc_hua ul {
+	border: 3px double #999;
+	height: 300px;
+	width: 330px;
+	overflow: auto;
+	overflow-x: hidden;
+	padding: 2px;
+	scrollbar-3dlight-color:#cccccc;
+	scrollbar-arrow-color:#ffffff; 
+	scrollbar-base-color:#cccccc; 
+	scrollbar-darkshadow-color:#cccccc; 
+	scrollbar-face-color:#ccc; 
+	scrollbar-highlight-color:#ffffff; 
+	scrollbar-shadow-color:#ffffff;		
+}
+#pisc_hua li {
+	list-style-type: none;
+}
+#pisc_hua li a img {
+	filter: Alpha(Opacity=70);
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	width:330px;
+	height:50px;
+	padding: 2px;	
+}
+#pisc_hua li a:hover img {
+	filter: Alpha(Opacity=100);
+	border: 1px solid #666666;
+	padding: 1px;
+}

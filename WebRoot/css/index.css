@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+
+#list{
+width:600px;
+height:514px;
+border:2px solid #ccc;
+float:right;
+}
+
+#user{
+width:340px;
+height:250px;
+border:2px solid #ccc;
+float:left;
+margin:0 0 10px 0;
+}
+
+#pics{
+width:340px;
+height:250px;
+border:2px solid #ccc;
+float:left;
+overflow:hidden;
+}
+#pisc_hua{
+overflow:hidden;
+}
+#news-container {
+	width: 300px;
+	margin: auto;
+	margin-top: 30px;
+	border: 5px solid #333333;
+}
+#news-container ul li div {
+	border: 1px solid #aaaaaa;
+	background: #ffffff;
+}
+
+
+

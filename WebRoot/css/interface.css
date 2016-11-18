@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+padding:0;
+margin:0;
+}
+body{
+background:#fff;
+width:960px;
+margin:0 auto;
+font-size:14px;
+}
+#header ul li a{
+text-decoration:none;
+color:#333;
+}
+#header ul li a:hover{
+color:#f00;
+text-decoration:underline;
+
+}
+ul{
+    list-style-type:none;
+}
+
+h2{
+  font-size:14px;
+  height:25px;
+  background:#ccc;
+  line-height:25px;
+  text-indent:20px;
+}
+#header ul{
+text-align:right;
+padding:20px 50px 0 0;
+}
+#header ul li{
+display:inline;
+}
+#header{
+width:auto;
+height:150px;
+border:2px solid #ccc;
+margin:10px 0;
+}
+#header h1{
+font-size:12px;
+height:39px;
+width:40px;
+background:url(LOGO.png);
+}
+#header h1 a{
+width:40px;
+height:39px;
+display:block;
+text-indent:-9999px;
+margin:40px 0 0 0;
+
+}
+#footer{
+clear:both;
+width:auto;
+height:60px;
+text-align:center;
+padding:10px 0 0 0;
+}
+#footer p{
+font-size:12px;
+letter-spacing:2px;
+padding:0 0 5px 0 ;
+}
+#footer p span{
+color:#06f;
+}
+#mincheng {
+width:0 auto;
+height:10px;
+text-align:center;
+font-size:30px;
+font-weight:bold;
+}
+#vali{
+vertical-align:middle;
+}

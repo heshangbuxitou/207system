@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+#content
+{
+width:auto;
+height:600px;
+border:2px solid #ccc;
+
+}
+#content h2{
+text-indent:0px;
+text-align:center;
+}
+#content dl{
+ width:400px;
+ margin:0 auto;
+}
+#content dl dt{
+text-align:center;
+padding:10px 0;
+font-weight:bold;
+}
+#content dl dd{
+padding:5px 0;
+}
+#content dl dd input.text{
+width:250px;
+height:19px;
+border:1px dashed #333;
+background:#fff;
+}
+#content dl dd input.sumbit{
+width:60px;
+height:20px;
+background:#fff;
+cursor:pointer;
+margin:0 0 0 150px;
+border:1px dashed #ccc;
+border-radius:25px;
+}
+#content dl dd input.code{
+width:60px;
+}
+.state1{
+color:#aaa;
+}
+.state2{
+color:red;
+}
+.state3{ 
+color:green;
+}

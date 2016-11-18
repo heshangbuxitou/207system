@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+
+#content_box
+{
+width:auto;
+height:600px;
+border:2px solid #ccc;
+opacity:0.5; 
+
+}
+#content_box h2{
+text-indent:0px;
+text-align:center;
+}
+#content_box form dl{
+height:75px;
+width:200px;
+margin:0 auto;
+}
+#content_box form dd input.text{
+margin:5px 0 5px 25px;
+}
+#content_box form dd input.btn{
+width:60px;
+height:25px;
+margin:5px 0 0 67px;
+background:#000;
+border:1px dashed #ccc;
+border-radius:25px;
+}
+#tets{
+display:block;
+margin:0 auto;
+border:1px dashed #ccc;
+border-radius:25px;
+text-indent:6px;
+}
+span{
+color:#FF0000;
+}
+
+

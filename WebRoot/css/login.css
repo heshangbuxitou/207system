@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+
+#login
+{
+width:auto;
+height:600px;
+border:2px solid #ccc;
+
+}
+#login h2{
+text-indent:0px;
+text-align:center;
+}
+#header h1{
+font-size:12px;
+height:39px;
+width:40px;
+background:url(LOGO.png);
+}
+#login dl{
+ width:400px;
+ margin:0 auto;
+}
+#login dl dt{
+text-align:center;
+padding:10px 0;
+font-weight:bold;
+}
+#login dl dd{
+padding:15px 0;
+}
+#login dl dd input.text{
+width:250px;
+height:19px;
+border:1px dashed #333;
+background:#fff;
+}
+#login dl dd input.sumbit{
+width:60px;
+height:19px;
+background:#fff;
+cursor:pointer;
+border:1px dashed #333;
+margin:0 0 0 150px;
+border-radius:25px;
+}
+#login dl dd input.code{
+width:60px;
+font
+}
+#lr{
+width:100px;
+height:30px;
+
+}
+.a{
+color:red;
+}
+.state1{
+color:#aaa;
+}
+.state2{
+color:red;
+}
+.state3{ 
+color:green;
+}
